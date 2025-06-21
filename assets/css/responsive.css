@@ -1,0 +1,29 @@
+@media (min-width : 500px) {
+    section ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    section li{
+        flex-basis: 49.5%;
+    }
+    figure img {
+    object-position: 0 ;
+}
+}
+
+@media (min-width:550px) and (max-width:799px) {
+    section li {
+        flex-basis: 49.5%;
+    }
+    figure img {
+    object-position: 0 -350px ;
+}
+
+}
+
+@media (min-width:800px) {
+    section li {
+        flex-basis: 32.5%;
+    }
+}
